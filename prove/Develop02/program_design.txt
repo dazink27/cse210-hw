@@ -1,0 +1,21 @@
+MENU Options:
+    Write a new entry
+        Show user random prompt
+        allow text to be entered.
+        Save Text, prompt, date
+            to txt file, or .csv
+
+    Reading journal from file
+        prompt user for filename
+        Display Journal
+            open list of entries
+            iterate through all entries
+                print out entries
+
+
+Classes to use:
+Journal class
+    Entry Class
+
+Prompt Generator Class
+    Randomly selects from file.
