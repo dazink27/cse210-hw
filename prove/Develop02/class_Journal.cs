@@ -1,22 +1,25 @@
+
 public class Journal{
     // List to contain the entry data. 
-    public List<Entry> _entries = new List<Entry>();
+    public List<Entry> _entries;
 
-    public void GetEntries()
+    public void AddNewEntry(Entry newEntry)
     {
-        //TODO:Code that iterates through list and prints data found.
-        foreach(Entry entry in _entries)
-        {
-            Entry.DisplayEntry();
-            }
-        }
-    
-    //Code that will iterate through .txt file to find the prompts.
-    public void GetPromptList(){
-        string promptfilename="prompts.txt";
-        string[] lines =System.IO.File.ReadAllLines(filename);
-        foreach (string line in lines){
-            string[] parts=line.Split("?");
-        }
+        //TODO Starts a new entry.  
     }
+    
+    public void DisplayAllEntries()
+    {
+        //TODO:
+
+    }
+    public void WritetoFile(string file)
+    {
+        //Code that writes the entry to file. Including date    
+    }
+    public void ReadFromFile(string file)
+    {
+        //Code that will read a .txt file and store it into list.
+    }
+
 }

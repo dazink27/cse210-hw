@@ -1,4 +1,13 @@
-//TODO: Design Prompt Generator Class, If needed.  
+//TODO: Should store a list of potential prompts 
+//that it can select from randomly.  
 public class PromptGenerator{
-    public List<>
+    public List<string> _prompts;
+
+
+    public string GetRandomPrompt()
+    {
+        //Code that will select random text from list.  
+        return "";
+    }
+
 }

@@ -3,17 +3,13 @@ public class Entry{
     public string _userPrompt;
     public string _userEntry;
 
-    
-    public void GetPrompt(){
-        //TODO: Code that will read prompt from list of prompts.
-    }
-    public void GetUserEntry(){
-        //TODO:Code that will allow user to input text.
-    }
-    public void DisplayEntry(){
+
+    public void Display_Entry()
+    {
         Console.WriteLine(@$"
-        Date: {_userDate}
-        Prompt Used: {_userPrompt}
-        Entry Found: {_userEntry}");
+        Date:{_userDate}
+        Prompt: {_userPrompt}
+        Entry: {_userEntry}");
     }
 }
+
